@@ -1,6 +1,6 @@
 # snake
 
-![snake logo](https://raw.githubusercontent.com/heitzlki/snake/c46880cecff67eac9c972e42af8e13c3e82a0899/img/snake.svg)
+![snake logo](https://github.com/heitzlki/snake/blob/main/img/snake-git.png?raw=true)
 
 ## Table of contents
 
