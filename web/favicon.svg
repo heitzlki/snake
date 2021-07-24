@@ -1,0 +1,25 @@
+<svg
+   width="500"
+   height="500"
+   viewBox="0 0 500 500"
+   fill="none"
+   xmlns="http://www.w3.org/2000/svg">
+   <rect
+      style="fill:#1a1a1a;fill-opacity:1;stroke-width:0.529166"
+      id="rect830"
+      width="500"
+      height="500"
+      x="-3.8756816e-06"
+      y="-3.8756816e-06" />
+   <path
+      style="fill:#00ffcc;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+      d="M 150,374.99997 H 349.99996 V 225.00001 H 199.99997 v -49.99999 h 149.99999 v -50 L 150,125.00003 v 149.99996 h 149.99995 v 49.99999 H 150 Z"
+      id="path877" />
+   <rect
+      style="fill:#ff0066;fill-opacity:1;stroke:none;stroke-width:0.129344;stroke-opacity:1"
+      id="rect898"
+      width="49.999992"
+      height="49.999992"
+      x="399.99997"
+      y="125.00003" />
+</svg>
