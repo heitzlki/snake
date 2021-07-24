@@ -5,18 +5,11 @@
 ## Table of contents
 
 - [General info](#general-info)
-- [Technologies](#technologies)
 - [Setup](#setup)
 
 ## General info
 
-This is a react based snake game with hamiltonian cycle ai.
-
-## Technologies
-
-Project is created with:
-
-- React
+This project is based on the following code: https://github.com/chrokh/fp-games
 
 ## Setup
 
@@ -29,17 +22,39 @@ git clone https://github.com/heitzlki/snake
 Change directory
 
 ```
-cd snake/snake/
+cd snake/
+```
+
+### CLI-Version
+
+Install dependencies
+
+```
+yarn
+```
+
+Start script
+
+```
+yarn run start
+```
+
+### Web-Version
+
+Change directory
+
+```
+cd web/
 ```
 
 Install dependencies
 
 ```
-yarn install
+yarn
 ```
 
-Start react
+Start vite
 
 ```
-yarn start
+yarn run start
 ```
