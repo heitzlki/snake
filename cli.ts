@@ -12,10 +12,12 @@ let State: IState = snake.initialState();
 const Matrix = {
   make: (table: ITable) => rep(rep('.')(table.cols))(table.rows),
   set: (val: string) => (pos: IPoint) => adjust(pos.y)(adjust(pos.x)(k(val))),
-  addSnake: (state: IState) => pipe(...map(Matrix.set('#'))(state.snake)),
-  addApple: (state: IState) => Matrix.set('o')(state.apple),
+  addSnake: (state: IState) =>
+    pipe(...map(Matrix.set('\x1b[38;5;0;49;92m#\x1b[0m'))(state.snake)),
+  addApple: (state: IState) =>
+    Matrix.set('\x1b[38;5;7;49;91mo\x1b[0m')(state.apple),
   addCrash: (state: IState) =>
-    state.snake.length == 0 ? map(map(k('#'))) : id,
+    state.snake.length == 0 ? map(map(k('\x1b[38;5;7;49;91m#\x1b[0m'))) : id,
   toString: (xsxs: any) => xsxs.map((xs: any) => xs.join(' ')).join('\r\n'),
   fromState: (state: IState) =>
     pipe(
